@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+
+# env and secrets
+.env*
+APIKey.csv
+
+# build outputs
+.next/
+out/
+build/
+www/
+.vercel/
+.netlify/
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+
+# playwright MCP logs
+.playwright-mcp/
+
+# lock files (keep package-lock.json)
+deno.lock
+
+# APK builds
+*.apk
+
+# Android build artifacts
+propnest/android/.gradle/
+propnest/android/app/build/
+propnest/android/build/
